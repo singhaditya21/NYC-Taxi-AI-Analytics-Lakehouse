@@ -1,0 +1,14 @@
+{
+  "data_asset_type": "Dataset",
+  "expectation_suite_name": "taxi_suite",
+  "expectations": [
+    { "expectation_type": "expect_column_values_to_not_be_null", "kwargs": { "column": "VendorID" } },
+    { "expectation_type": "expect_column_values_to_be_in_set", "kwargs": { "column": "VendorID", "value_set": [1, 2] } },
+    { "expectation_type": "expect_column_values_to_be_between", "kwargs": { "column": "Fare_amount", "min_value": 0 } },
+    { "expectation_type": "expect_column_values_to_be_between", "kwargs": { "column": "Passenger_count", "min_value": 0, "max_value": 10 } },
+    { "expectation_type": "expect_column_to_exist", "kwargs": { "column": "tpep_pickup_datetime" } },
+    { "expectation_type": "expect_column_to_exist", "kwargs": { "column": "DOLocationID" } },
+    { "expectation_type": "expect_column_to_exist", "kwargs": { "column": "PULocationID" } },
+    { "expectation_type": "expect_table_row_count_to_be_between", "kwargs": { "min_value": 1 } }
+  ]
+}\n

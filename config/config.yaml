@@ -1,0 +1,9 @@
+environment: dev
+lakehouse:
+  bucket: s3a://lakehouse
+  bronze_path: /bronze/taxi_rides
+  silver_path: /silver/taxi_rides_cleaned
+  gold_path: /gold/aggregates
+streaming:
+  kafka_topic: nyc-taxi-topic
+  broker: kafka:9092\n

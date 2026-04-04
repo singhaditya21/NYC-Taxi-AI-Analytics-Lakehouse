@@ -1,0 +1,10 @@
+name: 'nyc_taxi_ai'
+version: '1.0.0'
+config-version: 2
+
+profile: 'nyc_taxi_ai'
+
+models:
+  nyc_taxi_ai:
+    gold:
+      +materialized: table\n

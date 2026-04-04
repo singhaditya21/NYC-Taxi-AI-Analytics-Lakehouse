@@ -1,0 +1,8 @@
+nyc_taxi_ai:
+  target: dev
+  outputs:
+    dev:
+      type: spark
+      method: session
+      schema: gold
+      threads: 4\n

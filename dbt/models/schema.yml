@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: daily_metrics
+    description: "Daily aggregation of NYC Taxi trips and revenue"
+  - name: hourly_by_borough
+    description: "Hourly traffic breakdown per pickup location"
+  - name: fare_analysis
+    description: "Statistical analysis of fares relative to passenger count"\n

@@ -1,0 +1,17 @@
+apache-airflow==2.10.0
+pyspark==3.5.0
+delta-spark==3.2.0
+pandas
+requests
+python-dotenv
+great-expectations
+langchain
+langchain-community
+chromadb
+sentence-transformers
+groq
+streamlit
+kafka-python
+dbt-core==1.8.0
+dbt-spark==1.8.0
+PyHive[hive]\n
